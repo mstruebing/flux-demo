@@ -15,6 +15,6 @@ spec:
         app: static-sample
     spec:
       containers:
-        - image: mstruebing/static-sample:1666603774
+        - image: mstruebing/static-sample:1666603774 # {"$imagepolicy": "static-sample:static-sample"}
           imagePullPolicy: IfNotPresent
           name: static-sample
