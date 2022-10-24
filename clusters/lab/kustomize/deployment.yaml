@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,6 +14,6 @@ spec:
         app: static-sample
     spec:
       containers:
-        - image: mstruebing/static-sample:1666603774 # {"$imagepolicy": "static-sample:static-sample"}
+        - image: mstruebing/static-sample:1666610927 # {"$imagepolicy": "static-sample:static-sample"}
           imagePullPolicy: IfNotPresent
           name: static-sample
